@@ -1,0 +1,54 @@
+.footer{
+  background-color: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+.social_list{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.social_list li{
+  margin: 0 1em;
+}
+.social_list li a{
+  color: #fff;
+}
+.social_list li a:hover{
+  color: #ffbb33;
+}
+.social_list svg{
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.copy{
+  margin-top: 1em;
+}
+.copy span{
+  font-weight: bold;
+  color: #ffbb33;
+}
+.marcando{
+  padding-top: 2em;
+}
+.marcando a, p a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+.marcando a:hover{
+  color: #ffbb33;
+}
+.marcando, p a:hover{
+  color: #ffbb33;
+}
+.autor{
+  font-size: 1.3em;
+  padding: 0.3em;
+  font-weight: bold;
+}
+.autor:hover{
+  color: #ffbb33;
+  cursor: pointer;
+}

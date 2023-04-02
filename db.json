@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "name": "Curso na Udemy",
+      "budget": "3000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Python",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "JavaScript",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 900,
+      "services": [
+        {
+          "name": "Jefferson",
+          "cost": "300",
+          "description": "teste",
+          "id": "32a880e1-c290-4726-b4fb-496b53fbd5b5"
+        },
+        {
+          "name": "Joseane  Mendes Simão ",
+          "cost": "600",
+          "description": "Bug",
+          "id": "902c9a61-9e0f-4124-b56d-9d049508937a"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
