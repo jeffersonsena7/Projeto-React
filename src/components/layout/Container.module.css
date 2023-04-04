@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 }
 .min-height{
-  height: 100vh;
+  height: 150vh;
 }
 .start{
   justify-content: flex-start;
