@@ -4,6 +4,7 @@ import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton'
 
 import styles from './ProjectForm.module.css'
+import { parsePath } from 'react-router-dom'
 
 function ProjectForm({handleSubmit, btnText, projectData}){
   const [categories, setCategories] = useState([])
@@ -40,7 +41,7 @@ function ProjectForm({handleSubmit, btnText, projectData}){
   }
 
   return(
-      <form onSubmit={submit} className={styles.form}>        
+      <form action='Method.php' onSubmit={submit} className={styles.form}>        
         <Input type="text" text="Nome do projeto" name="name"
          placeholder="Insira o nome do projeto" handleOnChange={handleChange}
          value={project.name ? project.name : ''}/>
